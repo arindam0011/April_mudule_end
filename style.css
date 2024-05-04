@@ -10,6 +10,12 @@ body{
     width: 50%;
     padding-left: 100px;
 }
+.navber{
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 1;
+}
 .navop{
     width:40%;
     align-items: center;
@@ -60,16 +66,24 @@ body{
     font-size: 40px;
     
 }
+.sec2img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sec2img:hover{
+    box-shadow: 0px 0px 15px #888888;
+}
 .fst-card{
 width: 50%;
 }
 .fn{
     height: 50px;
+    border-radius: 5px;
 }
 .card_1{
     border-radius: 30px;
     border: 2px solid gray;
-    animation: cd 2s linear infinite alternate;
+    animation: cd 2s ease-in-out infinite alternate;
     margin-inline: auto;
 }
 @keyframes cd{
@@ -84,8 +98,12 @@ width: 50%;
     background-color: #ecf8ff;
 }
 .s3p{
-    color:rgb(85, 6, 159);
-    text-transform: capitalize;
+    background: linear-gradient(to right, rgba(153, 47, 237, 1), rgba(47, 128, 237, 1));
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    text-transform: uppercase !important;
+    font-weight: 400;
 }
 .crd_2{
  position:relative;
@@ -125,4 +143,17 @@ width: 50%;
 .smc2{
     background-color: #ffeed8 !important;
     color: #975502 !important;
+}
+.s4h{
+    font-weight: 400 !important;
+    font-style: italic;
+}
+
+.sec4>div>img{
+    width: 90%;
+    margin-inline: auto;
+}
+.s4but{
+    width: 15%;
+    color
 }
