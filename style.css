@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50%;
+    padding-left: 100px;
+}
+.navop{
+    width:40%;
+    align-items: center;
+
+}
+.op{
+    padding-right: 20px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+}
+.sec2{
+    width: 100vw;
+    background-image: url("Arrow 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.s2d1{
+    width: 50%;
+}
+.mh1{
+    font-weight: 450;
+    font-size: 60px;
+    padding-top: 30px;
+}
+.mh2{
+    font-weight: 600;
+    font-size: 60px;
+    -webkit-text-stroke: 2px black;
+}
+.acst{
+
+    width: 300px;
+    border-radius: 30px;
+    
+}
+
+.acst:hover{
+    box-shadow: 0px 0px 15px #888888;
+}
+.s2h2,.s2h3{
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+.fst-card{
+width: 30%;
+}
+.fn{
+    height: 50px;
+}
+.card_1{
+    border-radius: 30px;
+    border: 2px solid gray;
+    animation: cd 2s linear infinite alternate;
+}
+@keyframes cd{
+  0%{
+    box-shadow: 0px 0px 100px rgb(252, 211, 217);
+  }
+  100%{
+    box-shadow: 0px 0px 100px rgb(158, 205, 243);
+  }
+}
