@@ -5,6 +5,7 @@
 }
 body{
     width: 100vw;
+   
 }
 .logo{
     width: 50%;
@@ -42,14 +43,15 @@ body{
     width: 50%;
 }
 .mh1{
-    font-weight: 450;
+    font-weight: 400;
     font-size: 58px;
     padding-top: 30px;
 }
 .mh2{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 58px;
     -webkit-text-stroke: 2px black;
+    font-style: italic;
 }
 .acst{
 
@@ -155,5 +157,56 @@ width: 50%;
 }
 .s4but{
     width: 15%;
-    color
+}
+.grid{
+    width:80%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,auto);
+    grid-template-areas: 
+    "a c e"
+    "a c e"
+    "a c e"
+    "a c e"
+    "b c e"
+    "b c f"
+    "b d f"
+    "b d f";
+    gap: 5px;
+}
+.one{
+    grid-area: a;
+}
+.two{
+    grid-area: b;
+}
+.three{
+    grid-area: c;
+}
+.four{
+    grid-area: d;
+}
+.five{
+    grid-area: e;
+}
+.six{
+    grid-area: f;
+}
+.grid > div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+.grid > div > img{
+   width: 100%;
+    height: 100%;
+    
+}
+*{
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
