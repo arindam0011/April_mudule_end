@@ -55,18 +55,18 @@
           </select>
         </div>
       </div>
-      <div class=" pe-5  ">
-        <button type="button" class="btn btn-outline-info">Login</button>
+      <div class=" nav_bt px-5">
+        <button id="btn" type="button" class="btn btn-outline-info">Login</button>
       </div>
-
     </nav>
-    <div class="nav_text fst-italic fs-5 text-center bg-primary text-light p-2">
-      Next batch starts in ⌛ 22 Days, Hurry!
-    </div>
+    
   </heder>
+  <div class="nav_text fst-italic fs-5 text-center bg-primary text-light p-2">
+    Next batch starts in ⌛ 22 Days, Hurry!
+  </div>
   <!-- section 2 -->
-  <section class="sec2 d-flex p-5">
-    <div class="ps-5 s2d1">
+  <section id="section2" class="sec2 w-100 d-flex p-5">
+    <div id="s2d1" class="ps-5 s2d1">
       <h1 class=" fst-italic mh1">Launch your career with our</h1>
       <h1 class="fst-italic mh2"><span class="text-primary fst-italic">Full Stack Developer</span><span class="text-dark fst-italic"> Courses</span> </h1>
       <p class="sec2_p w-50 py-3">Curriculum designed and taught by Alumni from IIT’s & Leading Tech Companies</p>
@@ -80,34 +80,38 @@
         </div>
       </div>
     </div>
-    <div class="fst-card ps-5 d-flex justify-content-center">
-      <div class="card_1 text-center p-3">
-        <h1 class="s2h2 fst-italic">Start Attending Live</h1>
-        <h1 class="s2h3 fst-italic">Classes for Free!</h1>
-        <p class="fs-5 p-4">Live lectures & Assignments curated by <br> Top Tech Proffesionals</p>
-        <from method="post p-3">
-          <div class="pb-3">
-            <i class="fa fa-user fs-4 pe-2 "></i><input class="w-75 fn" type="name" for="Name" placeholder="Name"><br>
-          </div>
-          <div class="py-3">
-            <i class="fa fa-phone fs-4 pe-2 "></i><input class="w-75 fn" type="tel" placeholder="Phone Number">
-          </div>
-        </from>
-        <p class="pt-3">By clicking ‘Apply now’, you agree to our</p>
-        <a href="#" class="text-decoration-none text-primary pb-5">
-          <p>Terms & Conditions</p>
-        </a>
-      </div>
+    <div id="fst-card " class="fst-card ps-5 d-block justify-content-center">
+        <div id="child_crd" class="d-flex justify-content-right text-center">
+            <div id="card_1" class="card_1 w-50 p-3">
+                <h1 class="s2h2 fst-italic">Start Attending Live</h1>
+                <h1 class="s2h3 fst-italic">Classes for Free!</h1>
+                <p class="fs-5 p-4">Live lectures & Assignments curated by <br> Top Tech Proffesionals</p>
+                <from method="post p-3">
+                  <div class="pb-3">
+                    <i class="fa fa-user fs-4 pe-2 "></i><input class="w-75 fn" type="name" for="Name" placeholder="Name"><br>
+                  </div>
+                  <div class="py-3">
+                    <i class="fa fa-phone fs-4 pe-2 "></i><input class="w-75 fn" type="tel" placeholder="Phone Number">
+                  </div>
+                </from>
+                <button type="button" class="btn fs-5 applybtn">Apply Now For Free  ></button>
+                <p class="pt-3">By clicking ‘Apply now’, you agree to our</p>
+                <a href="#" class="text-decoration-none text-primary pb-5">
+                  <p>Terms & Conditions</p>
+                </a>
+            </div>
+        </div>
+      
     </div>
   </section>
   <!-- section 3 -->
   <section class="sec3 w-100 text-center pb-5">
-    <div class="p-4">
+    <div  class="p-4">
       <p class="s3p fs-4 pt-5 w-100">learn full-stack web development</p>
       <h2 class="fs-3 text-primary">OUR COURSES</h2>
     </div>
-    <div class="d-flex justify-content-center">
-      <div class="card crd_2 border-primary w-25 text-center">
+    <div id="course" class="d-flex justify-content-center">
+      <div id="Main_course_1" class="card crd_2 border-primary w-25 text-center">
         <div class="d-flex justify-content-center">
           <div class=" mpp bg-primary text-light w-50">
             <p>Ideal For first-time coders</p>
@@ -153,12 +157,12 @@
         </div>
         <div class="d-flex justify-content-around w-100 py-4">
 
-          <button type="button" class="btn  sec3btn border-primary fs-5"><i class="fa fa-download"></i> Brochure</button>
-          <button type="button" class="btn  sec3btn bg-primary text-light fs-5">Learn More<spam class="fs-4"> ></spam></button>
+          <button id="btn" type="button" class="btn btnhw sec3btn border-primary "><i class="fa fa-download"></i> Brochure</button>
+          <button id="btn" type="button" class="btn btnhw sec3btn bg-primary text-light">Learn More<spam class="fs-4"> ></spam></button>
         </div>
 
       </div>
-      <div class="card crd_3 w-25 text-center ms-5">
+      <div id="Main_course_2" class="card crd_3 w-25 text-center ms-5">
         <h3 class="p-4"><i class="fa fa-laptop pe-2"></i>Intermediate</h3>
         <div class="d-flex justify-content-center">
           <div class="card  smc2 me-2 p-1">
@@ -198,8 +202,8 @@
         </div>
         <div class="d-flex justify-content-around w-100 py-4">
 
-          <button type="button" class="btn  sec3btn border-primary fs-5"><i class="fa fa-download"></i> Brochure</button>
-          <button type="button" class="btn  sec3btn bg-primary text-light fs-5">Learn More<spam class="fs-4"> ></spam></button>
+          <button id="btn" type="button" class="btn btnhw sec3btn border-primary "><i class="fa fa-download"></i> Brochure</button>
+          <button id="btn" type="button" class="btn btnhw sec3btn bg-primary text-light ">Learn More<spam class="fs-4"> ></spam></button>
         </div>
 
       </div>
@@ -207,15 +211,15 @@
     </div>
   </section>
   <!-- section 4 -->
-  <section class="text-center py-5 sec4 w-100">
+  <section id="S4" class="text-center py-5 sec4 w-100">
     <p class="fs-5 s3p">Over 300+ hiring partners</p>
     <p class="display-5 s4h">Top Startups & MNC’s Hire </p>
     <p class="display-5 s4h text-primary">Software Engineer</p>
     <p class="fs-5">From AccioJob upto 41 Lakhs</p>
-    <div class="pb-5">
+    <div id="company" class="pb-5">
         <img src="Companies Logo.png" alt="company logo">
     </div>
-    <button class="btn bg-primary s4but text-light fs-5" type="button">Placement Report  ></button>
+    <button id="btn" class="btn bg-primary btnhw s4but text-light " type="button">Placement Report  ></button>
   </section>
   <!-- section 5 -->
   <section class="text-center py-5 sec4 w-100">
